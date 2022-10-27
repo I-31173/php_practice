@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet');
+@font-face {
+    font-family: 'LocalFont1';
+    src: url('/fonts/Ubuntu-Light.ttf') format('ttf');
+    font-style: italic;
+    font-weight: 600;
+}
+
+html, body {
+    height: 100%;
+    background-color: #ada8a8;
+}
+
+p, h1, h2 {
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+p {
+    color: #3f3a3a;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.flex_container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: #c9bbbb;
+    padding: 5px;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #cc9fde;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.data {
+    display: flex;
+    align-items: flex-start;
+}
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+}
+
+.myAve {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 5px;
+    font-size: 1.5rem;
+    font-weight: 1000;
+}
+
+.logo_php img {
+    width: 130px;
+    height: 80px;
+    margin: 1px, 10px;
+}
+
+.myImg img {
+    width: 350px;
+    height: 319px;
+    margin: 30px, 10px;
+    padding: 10px;
+}
+
+.hist img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 190px;
+    margin: 30px, 10px;
+    padding: 10px;
+}
+
+.hist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    padding: 5px;
+}
+
+.full_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-right: 10px;
+    padding-left: 30px;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.knowledge {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.footer {
+    background-color: #cc9fde;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li {
+    margin-right: 50px;
+}
+
+li a {
+    text-decoration: none;
+    font-family: 'LocalFont1';
+    font-style: oblique;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
